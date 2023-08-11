@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background:#283593 ;
+    font-size: 2em;
+}
+.turn{
+    margin-bottom: 30px;
+    color: #fff;
+}
+.gameBoard{
+    width: 60%;
+    height: 80%;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: repeat(3, 33.33%);
+}
+.boardPart{
+    border: 2px solid black;
+    font-size: 3em;
+    cursor: pointer;
+    text-align: center;
+}
+.btnClass{
+     display: flex;
+     gap: 40px;
+}
+.btnStart, .btnReset{
+    padding: 15px 30px;
+    border: 1px solid black;
+    margin-top: 15px;
+    background: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+}
